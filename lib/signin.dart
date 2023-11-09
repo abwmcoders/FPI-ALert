@@ -2,6 +2,8 @@
 // import 'package:cloud_firestore/cloud_firestore.dart';
 
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:fpi_alert/screens/auth/login.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
 // //final GoogleSignIn googleSignIn = GoogleSignIn();
@@ -65,7 +67,7 @@ bool? admin;
 //   return "Signed In";
 // }
 
-void signOut() async {
+void signOut(context) async {
   await _auth.signOut();
   //await googleSignIn.signOut();
   userEmail = null;
@@ -73,6 +75,12 @@ void signOut() async {
   userImageUrl = null;
   uid = null;
   print("User Sign Out");
+  Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (context) => LoginScreen(),
+    ),
+  );
 }
 
 Future<String> currentUser() async {

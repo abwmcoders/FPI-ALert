@@ -27,7 +27,7 @@ class UserObject {
   //Fromjson
   factory UserObject.fromJson(Map<String, dynamic>? json) {
     return UserObject(
-      name: json?['name'],
+      name: json?['username'],
       email: json?['email'],
       pass: json?['pass'],
       token: json?['token'],

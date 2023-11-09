@@ -218,6 +218,7 @@ class _HomeState extends State<Home> {
 
   @override
   void initState() {
+    getUser();
 //     _volu
 //meButtonSubscription =
 //         volumeButtonEvents.listen((VolumeButtonEvent event) {
@@ -305,6 +306,16 @@ class _HomeState extends State<Home> {
           ),
         ),
         actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 25),
+            child: GestureDetector(
+              onTap: () => signOut(context),
+              child: const Icon(
+                Icons.logout,
+                size: 30,
+              ),
+            ),
+          ),
           Padding(
             padding: const EdgeInsets.only(right: 25),
             child: GestureDetector(
