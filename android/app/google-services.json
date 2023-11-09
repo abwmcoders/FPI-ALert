@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "313673123151",
+    "firebase_url": "https://complaint-system-fe78f-default-rtdb.firebaseio.com",
+    "project_id": "complaint-system-fe78f",
+    "storage_bucket": "complaint-system-fe78f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313673123151:android:d69345996efa92c99e713a",
+        "android_client_info": {
+          "package_name": "com.example.compliants_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs7U9KHgwzpS-PS2QTIRAt6y3pVbO6BFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313673123151:android:2bf059722b1915379e713a",
+        "android_client_info": {
+          "package_name": "com.example.fpi_alert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs7U9KHgwzpS-PS2QTIRAt6y3pVbO6BFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313673123151:android:8d2451878ff7901d9e713a",
+        "android_client_info": {
+          "package_name": "com.example.fpi_alert_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs7U9KHgwzpS-PS2QTIRAt6y3pVbO6BFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
